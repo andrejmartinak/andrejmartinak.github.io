@@ -12,7 +12,7 @@
 - Create Secure Attachment by tending to his needs
 
 ## Handling
-- [[Handling of a baby]]
+- [Handling of a baby](Handling%20of%20a%20baby)
 ---
 ## 0-6 Months: Early Infancy
 
