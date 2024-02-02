@@ -29,8 +29,8 @@
 - **Benefits**: Enhances cognitive skills, emotional development, and sensory processing.
 - **Research**: [Music and the Brain: The Benefits of Music - A Wealth of Research](https://www.psychologytoday.com/us/blog/your-musical-self/201005/music-and-the-brain-the-benefits-music).
 
-- [[Activities to do with an infant (0-2)]]
-- [[Development goals and metrics for infants (0-2)]]
+- [Activities to do with an infant (0-2)](Activities to do with an infant (0-2))
+- [Development goals and metrics for infants (0-2)]
 ---
 ## 6-12 Months: Late Infancy
 
