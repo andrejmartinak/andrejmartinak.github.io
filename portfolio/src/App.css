@@ -1,38 +1,82 @@
 .App {
-  text-align: center;
+    flex: 1;
+    color: #313131;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+header nav {
+    display: flex;
+    justify-content: right;
+    padding-top: 16px;
+    padding-right: 16px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+header nav ul li {
+    margin-right: 20px; /* Spacing between menu items */
+}
+
+header nav ul li:last-child {
+    margin-right: 0; /* No margin to the right of the last item */
+}
+
+header nav ul li a {
+    text-decoration: none; /* Remove the underline from links */
+    color: #333333; /* Color of the links */
+    font-weight: bold; /* Make the links bold */
+}
+
+header nav ul li a:hover {
+    color: #099539;
+}
+
+.top-part {
+    max-width: 800px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.top-part-text {
+    display: flex;
+    padding-left: 32px;
+    padding-right: 32px;
+    text-align: justify;
+    flex-direction: column;
+    align-self: center;
+}
+
+.profile-picture {
+    width: 220px;
+    height: 220px;
+}
+
+/* style for text items that are stretched to fit maximum width */
+.separator-list {
+    display: flex;
+    color: #099539;
+    font-weight: bold;
+    font-size: 12px;
+    justify-content: space-between; /* This will distribute space evenly between the items */
+    align-items: center;
+    width: 100%; /* Ensure the container stretches to the full width */
+}
+
+.separator-list span:not(:last-child)::after {
+    content: "|"; /* This adds the separator after each span except the last one */
+    margin: 0 10px; /* Adjust spacing around the separator as needed */
+}
+
+.projects-title {
+    text-align: center;
 }
 
 .App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+    color: #099539;
 }
