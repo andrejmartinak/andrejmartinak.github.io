@@ -1,9 +1,12 @@
 .App {
     flex: 1;
     color: #313131;
+    line-height: 1.4;
+    font-family: "Noto Serif", serif;
 }
 
 header nav {
+    max-width: 1524px;
     display: flex;
     justify-content: right;
     padding-top: 16px;
@@ -36,11 +39,14 @@ header nav ul li a:hover {
 }
 
 .top-part {
-    max-width: 800px;
+    max-width: 1024px;
     display: flex;
-    justify-content: center;
-    margin: 0 auto;
+    margin: 32px auto 0;
     padding: 20px;
+}
+
+.top-part h1 {
+    margin-top: 0;
 }
 
 .top-part-text {
@@ -53,8 +59,9 @@ header nav ul li a:hover {
 }
 
 .profile-picture {
-    width: 220px;
-    height: 220px;
+    width: 240px;
+    height: 240px;
+    align-self: center;
 }
 
 /* style for text items that are stretched to fit maximum width */
@@ -62,18 +69,22 @@ header nav ul li a:hover {
     display: flex;
     color: #099539;
     font-weight: bold;
-    font-size: 12px;
+    font-size: 14px;
     justify-content: space-between; /* This will distribute space evenly between the items */
-    align-items: center;
     width: 100%; /* Ensure the container stretches to the full width */
 }
 
+.separator-list span {
+}
+
 .separator-list span:not(:last-child)::after {
-    content: "|"; /* This adds the separator after each span except the last one */
+    content: "|";
+
     margin: 0 10px; /* Adjust spacing around the separator as needed */
 }
 
 .projects-title {
+    margin-top: 64px;
     text-align: center;
 }
 

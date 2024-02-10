@@ -1,41 +1,95 @@
-.project{
+.project {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    padding: 32px;
+    font-family: Roboto, sans-serif;
 }
 
-.project h1{
+.project h1 {
     align-self: start;
+    font-size: 2.5em;
+    font-weight: 400;
 }
 
 .project-img {
-    max-width: 150px;
-    max-height: 300px;
+    width: auto;
+    align-self: center;
+    max-width: 250px;
+    max-height: 400px;
+}
+
+.project-wrapper {
+    display: flex;
+    max-width: 812px;
 }
 
 .project-content {
-    max-width: 848px;
     display: flex;
     justify-content: center;
     align-items: start;
+    text-align: justify;
+    padding: 32px 16px;
     flex-direction: column;
-    padding: 32px;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.info {
+    display: flex;
+}
+
+.info span {
+    width: 200px;
+    margin-left: 8px;
+}
+
+.info b {
+    font-weight: 600;
+    margin-right: auto; /* Pushes the <b> to the left and <span> to the right */
+}
+
+.project-header {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+}
+
+.project-icon {
+    width: 48px;
+    height: 48px;
+    margin-right: 16px;
 }
 
 .project a {
     text-decoration: none;
-    font-weight: bold;
+    font-weight: 800;
+}
+
+.project a:hover {
+    text-decoration: underline;
+}
+
+.project-chips {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 16px;
 }
 
 .chip {
     display: inline-block;
-    padding: 0 25px;
-    height: 50px;
-    font-size: 16px;
-    line-height: 50px;
+    padding: 0 16px;
+    font-size: 14px;
+    line-height: 32px;
     border-radius: 25px;
-    background-color: #f1f1f1;
-    margin: 5px;
+    margin-right: 8px;
+    font-weight: 500;
+    margin-top: 8px;
 }
