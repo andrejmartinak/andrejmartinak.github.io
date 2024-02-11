@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.16649258.css",
-    "main.js": "/static/js/main.b35dfb6c.js",
+    "main.css": "/static/css/main.955e8f35.css",
+    "main.js": "/static/js/main.f31e6d1f.js",
     "static/media/skoda.png": "/static/media/skoda.e8d2d648d772211b01f1.png",
     "static/media/homeberry.png": "/static/media/homeberry.b28806bd502f1f8e2974.png",
     "static/media/game-of-life.png": "/static/media/game-of-life.06b264aaac4cf3837345.png",
@@ -14,11 +14,11 @@
     "static/media/csob-icon.png": "/static/media/csob-icon.f8ceb68d4d921216554f.png",
     "static/media/skoda-icon.png": "/static/media/skoda-icon.e150dfd43d9a4e45e740.png",
     "index.html": "/index.html",
-    "main.16649258.css.map": "/static/css/main.16649258.css.map",
-    "main.b35dfb6c.js.map": "/static/js/main.b35dfb6c.js.map"
+    "main.955e8f35.css.map": "/static/css/main.955e8f35.css.map",
+    "main.f31e6d1f.js.map": "/static/js/main.f31e6d1f.js.map"
   },
   "entrypoints": [
-    "static/css/main.16649258.css",
-    "static/js/main.b35dfb6c.js"
+    "static/css/main.955e8f35.css",
+    "static/js/main.f31e6d1f.js"
   ]
 }
