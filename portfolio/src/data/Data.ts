@@ -33,7 +33,7 @@ export const createProjects = () => {
         {
             name: 'WIP',
             color: '#42B047',
-            description: 'A beautiful-looking gamified habit tracker. Based on scientific research, it is designed to make learning new habits easier and overcoming bad ones more intuitive. Currently under development, I am working on an MVP.',
+            description: 'A beautiful-looking gamified habit tracker. Based on scientific research, it is designed to make learning new habits easier and overcoming bad ones more intuitive.Currently under development, I am working on an MVP.',
             imageUrl: require("../asset/game-of-life.png"),
             logoUrl: require("../asset/game-of-life-icon.png"),
             status: 'Work in Progress',
