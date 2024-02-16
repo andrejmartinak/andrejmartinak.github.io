@@ -122,3 +122,36 @@ header nav ul li a:hover {
 .App-link {
     color: #099539;
 }
+
+.footer {
+    background-color: #313131;
+    padding: 16px;
+}
+
+.footer-icon-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.footer-icon {
+    padding: 16px 16px;
+    fill: #FFFEF7;
+}
+
+.footer-icon:hover,
+.footer-icon:focus svg  {
+    fill: #099539;
+}
+
+.footer p{
+    color: #FFFEF7;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 16px;
+}
+
+.footer h1{
+    color: #FFFEF7;
+    text-align: center;
+}

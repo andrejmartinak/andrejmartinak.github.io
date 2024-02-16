@@ -1,7 +1,10 @@
 import './App.css';
 import {ProjectView} from "./component/ProjectView";
-import {useMemo, useState} from "react";
+import {useMemo} from "react";
 import {createProjects} from "./data/Data";
+import {ReactComponent as Github} from "./asset/github.svg";
+import {ReactComponent as LinkedIn} from "./asset/linkedin.svg";
+import {ReactComponent as Instagram} from "./asset/instagram.svg";
 
 function App() {
     const projects = useMemo(() => {
@@ -16,7 +19,7 @@ function App() {
                 <nav>
                     <ul>
                         <li><a href="#projects">My Projects</a></li>
-                        <li><a href="">Reach out</a></li>
+                        <li><a href="#reach-out">Reach out</a></li>
                         <li><a href="">Blog</a></li>
                     </ul>
                 </nav>
@@ -45,8 +48,27 @@ function App() {
             </div>
             <h1 id="projects" className="projects-title">Have a look at some of my projects</h1>
             {projects}
+            <div className={"footer"}>
+                <h1 id="reach-out">Reach out to me</h1>
+
+                <div className="footer-icon-wrapper">
+                    <a href="https://www.linkedin.com/in/andrej-martin%C3%A1k-a5118731/"
+                    ><LinkedIn className="footer-icon"/></a>
+                    <a href="https://github.com/AmkSk/"><Github className="footer-icon"/></a>
+                    <a href="https://www.instagram.com/andrej.martinak/"><Instagram className="footer-icon"/></a>
+                </div>
+
+                <p>Created by me in 2024 in React</p>
+            </div>
+
         </div>
     );
+}
+
+const linkedInHoverStyle = () => {
+    {
+
+    }
 }
 
 export default App;
