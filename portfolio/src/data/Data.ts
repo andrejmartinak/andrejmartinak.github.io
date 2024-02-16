@@ -5,7 +5,6 @@ export type Project ={
     role: string
     description: string
     imageUrl: string
-    imageSide: 'left' | 'right',
     logoUrl?: string,
     url?: string
     urlText?: string,
@@ -32,14 +31,13 @@ const JENKINS = 'Jenkins'
 export const createProjects = () => {
     const projects: Project[] = [
         {
-            name: 'Game of Life',
+            name: 'WIP',
             color: '#42B047',
-            description: 'A beautiful-looking gamified habit tracker. Based on scientific research, which helps you learn new habits more easily and visualize building resistance to bad habits. Currently under development, I am working on an MVP.',
+            description: 'A beautiful-looking gamified habit tracker. Based on scientific research, it is designed to make learning new habits easier and overcoming bad ones more intuitive. Currently under development, I am working on an MVP.',
             imageUrl: require("../asset/game-of-life.png"),
             logoUrl: require("../asset/game-of-life-icon.png"),
             status: 'Work in Progress',
             role: 'Creator',
-            imageSide: 'left',
             techStack: [REACT_NATIVE, EXPO, DESIGN, UX]
         },
         {
@@ -50,7 +48,6 @@ export const createProjects = () => {
             logoUrl: require("../asset/moonpos-icon.png"),
             status: 'Released',
             role: 'Founder',
-            imageSide: 'right',
             url: 'https://moonposapp.com',
             techStack: [KOTLIN, KOTLIN_MULTIPLATFORM, COROUTINES, FIREBASE, BLOCKCHAIN, UX, DESIGN, CLEAN_ARCHITECTURE, REST]
         },
@@ -62,7 +59,6 @@ export const createProjects = () => {
             logoUrl: require("../asset/homeberry-icon.png"),
             status: 'Released',
             role: 'Creator',
-            imageSide: 'left',
             url: 'https://github.com/AmkSk/homeberry',
             urlText: 'GitHub',
             techStack: [KOTLIN, DESIGN, REST]
@@ -75,7 +71,6 @@ export const createProjects = () => {
             logoUrl: require("../asset/have-icon.png"),
             status: 'Discontinued',
             role: 'Senior Android Developer, UX Research',
-            imageSide: 'right',
             techStack: [KOTLIN, KOTLIN_MULTIPLATFORM, COROUTINES, JETPACK_COMPOSE, GRAPH_QL, JENKINS, UX ]
         },
         {
@@ -86,7 +81,6 @@ export const createProjects = () => {
             logoUrl: require("../asset/csob-icon.png"),
             status: 'Released',
             role: 'Senior Android Developer',
-            imageSide: 'left',
             url: 'https://play.google.com/store/apps/details?id=cz.csob.smart',
             urlText: 'Google Play',
             techStack: [KOTLIN, CLEAN_ARCHITECTURE, COROUTINES, REST]
@@ -99,7 +93,6 @@ export const createProjects = () => {
             logoUrl: require("../asset/skoda-icon.png"),
             status: 'Legacy',
             role: 'Android Developer',
-            imageSide: 'right',
             url: 'https://play.google.com/store/apps/details?id=cz.skodaauto.myskoda',
             urlText: 'Google Play',
             techStack: [KOTLIN, JAVA, CLEAN_ARCHITECTURE, COROUTINES, REST, TDD, JENKINS]
