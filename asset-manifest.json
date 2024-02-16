@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.955e8f35.css",
-    "main.js": "/static/js/main.f31e6d1f.js",
+    "main.css": "/static/css/main.c352a9f9.css",
+    "main.js": "/static/js/main.82ccf7ce.js",
     "static/media/skoda.png": "/static/media/skoda.e8d2d648d772211b01f1.png",
     "static/media/homeberry.png": "/static/media/homeberry.b28806bd502f1f8e2974.png",
     "static/media/game-of-life.png": "/static/media/game-of-life.06b264aaac4cf3837345.png",
@@ -13,12 +13,15 @@
     "static/media/game-of-life-icon.png": "/static/media/game-of-life-icon.b34afad390b8a7efbb1f.png",
     "static/media/csob-icon.png": "/static/media/csob-icon.f8ceb68d4d921216554f.png",
     "static/media/skoda-icon.png": "/static/media/skoda-icon.e150dfd43d9a4e45e740.png",
+    "static/media/github.svg": "/static/media/github.ca8f6c34af0f10c13e3341d4faa50878.svg",
+    "static/media/instagram.svg": "/static/media/instagram.33f852758c718bb3911abc13be7702c0.svg",
+    "static/media/linkedin.svg": "/static/media/linkedin.335d843ee8a45421d5a6ee8ac6deb5e6.svg",
     "index.html": "/index.html",
-    "main.955e8f35.css.map": "/static/css/main.955e8f35.css.map",
-    "main.f31e6d1f.js.map": "/static/js/main.f31e6d1f.js.map"
+    "main.c352a9f9.css.map": "/static/css/main.c352a9f9.css.map",
+    "main.82ccf7ce.js.map": "/static/js/main.82ccf7ce.js.map"
   },
   "entrypoints": [
-    "static/css/main.955e8f35.css",
-    "static/js/main.f31e6d1f.js"
+    "static/css/main.c352a9f9.css",
+    "static/js/main.82ccf7ce.js"
   ]
 }
