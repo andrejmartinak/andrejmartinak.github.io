@@ -12,6 +12,7 @@ header nav {
     justify-content: right;
     padding-top: 16px;
     padding-right: 16px;
+    margin: 0 auto;
 }
 
 header nav ul {
