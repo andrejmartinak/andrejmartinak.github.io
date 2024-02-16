@@ -1,26 +1,26 @@
 .project {
     display: flex;
     justify-content: center;
-    align-items: center;
-    flex-direction: row;
     font-family: Roboto, sans-serif;
 }
 
 .project h1 {
     align-self: start;
+    line-height: 1;
     font-size: 2.5em;
     font-weight: 400;
 }
 
 .project-img {
-    width: auto;
+    width: 30%;
+    height: auto;
     align-self: center;
-    max-width: 250px;
-    max-height: 400px;
 }
 
 .project-wrapper {
     display: flex;
+    flex-direction: column;
+    padding: 32px 16px;
     max-width: 812px;
 }
 
@@ -29,8 +29,34 @@
     justify-content: center;
     align-items: start;
     text-align: justify;
-    padding: 32px 16px;
     flex-direction: column;
+}
+
+/* Desktop styling */
+@media (min-width: 768px){
+    .project-wrapper {
+        flex-direction: row;
+        padding: 32px 16px;
+        max-width: 812px;
+    }
+
+    .project:nth-child(odd) .project-img {
+        order: -1; /* This will make the image appear first (to the left) */
+        margin-right: 32px;
+    }
+
+    .project:nth-child(even) .project-img {
+        margin-left: 32px;
+    }
+
+    .project:nth-child(even) .project-content {
+        order: -1; /* This will make the content appear first (to the left), and image to the right */
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        text-align: justify;
+        flex-direction: column;
+    }
 }
 
 .info-container {

@@ -33,6 +33,7 @@ function App() {
                     <p>I'm passionate about creating user-centric applications that deliver a seamless user experience.
                         I thrive in a team environment, always open to exchanging ideas and learning from my peers,
                         actively seeking out feedback at every opportunity.</p>
+
                     <div className="separator-list">
                         <span>Deep Work</span>
                         <span>Clean Code</span>
@@ -42,8 +43,7 @@ function App() {
                     </div>
                 </div>
             </div>
-
-            <h1 id="projects"  className="projects-title">Have a look at some of my projects</h1>
+            <h1 id="projects" className="projects-title">Have a look at some of my projects</h1>
             {projects}
         </div>
     );
