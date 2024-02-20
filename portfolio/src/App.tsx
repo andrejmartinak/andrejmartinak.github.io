@@ -65,10 +65,4 @@ function App() {
     );
 }
 
-const linkedInHoverStyle = () => {
-    {
-
-    }
-}
-
 export default App;

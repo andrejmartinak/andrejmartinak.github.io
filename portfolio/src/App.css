@@ -61,9 +61,8 @@ header nav ul li a:hover {
 }
 
 .profile-picture {
-    max-width: 60%;
     height: auto;
-    display: flex;
+    max-width: 60vw;
     padding-bottom: 24px;
     align-self: center;
 }
