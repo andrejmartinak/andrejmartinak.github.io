@@ -48,9 +48,7 @@ function App() {
             </div>
             <h1 id="projects" className="projects-title">Have a look at some of my projects</h1>
             {projects}
-            <div className={"footer"}>
-                <h1 id="reach-out">Reach out to me</h1>
-
+            <div id="reach-out" className={"footer"}>
                 <div className="footer-icon-wrapper">
                     <a href="https://www.linkedin.com/in/andrej-martin%C3%A1k-a5118731/"
                     ><LinkedIn className="footer-icon"/></a>

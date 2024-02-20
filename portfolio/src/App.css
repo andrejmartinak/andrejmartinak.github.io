@@ -3,16 +3,14 @@
     background-color: #FFFEF7;
     color: #313131;
     line-height: 1.4;
-    font-family: "Noto Serif", serif;
+    font-family: "Merriweather", serif;
 }
 
 header nav {
-    max-width: 1524px;
     display: flex;
-    justify-content: right;
+    justify-content: center;
     padding-top: 16px;
-    padding-right: 16px;
-    margin: 0 auto;
+    padding-bottom: 16px;
 }
 
 header nav ul {
@@ -20,14 +18,7 @@ header nav ul {
     padding: 0;
     margin: 0;
     display: flex;
-}
-
-header nav ul li {
-    margin-right: 20px; /* Spacing between menu items */
-}
-
-header nav ul li:last-child {
-    margin-right: 0; /* No margin to the right of the last item */
+    gap: 32px;
 }
 
 header nav ul li a {
@@ -45,14 +36,13 @@ header nav ul li a:hover {
     display: flex;
     flex-direction: column;
     margin: 32px auto 0;
-    padding: 20px;
+    padding: 0 32px;
 }
 
 .top-part-text {
-    /*padding-left: 32px;*/
-    /*padding-right: 32px;*/
     text-align: justify;
     flex-direction: column;
+    hyphens: auto;
     align-self: center;
 }
 
@@ -95,7 +85,7 @@ header nav ul li a:hover {
     display: flex;
     flex-wrap: wrap; /* Allow items to wrap */
     color: #099539;
-    font-weight: bold;
+    font-weight: 500;
     font-size: 14px;
     gap: 10px; /* Adds space between items when they wrap */
 }
@@ -117,6 +107,7 @@ header nav ul li a:hover {
 
 .projects-title {
     text-align: center;
+    margin-top: 64px;
 }
 
 .App-link {
@@ -135,6 +126,8 @@ header nav ul li a:hover {
 }
 
 .footer-icon {
+    width: 40px;
+    height: 40px;
     padding: 24px 16px;
     fill: #FFFEF7;
 }

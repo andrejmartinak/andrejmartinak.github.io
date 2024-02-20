@@ -33,7 +33,7 @@ export const createProjects = () => {
         {
             name: 'WIP',
             color: '#42B047',
-            description: 'A beautiful-looking gamified habit tracker. Based on scientific research, it is designed to make learning new habits easier and overcoming bad ones more intuitive.Currently under development, I am working on an MVP.',
+            description: 'A beautiful-looking gamified habit tracker. Based on scientific research, it is designed to make learning new habits easier and overcoming bad ones more intuitive. Currently under development, I am working on an MVP.',
             imageUrl: require("../asset/game-of-life.png"),
             logoUrl: require("../asset/game-of-life-icon.png"),
             status: 'Work in Progress',
@@ -49,6 +49,7 @@ export const createProjects = () => {
             status: 'Released',
             role: 'Founder',
             url: 'https://moonposapp.com',
+            urlText: 'Check it out at moonposapp.com',
             techStack: [KOTLIN, KOTLIN_MULTIPLATFORM, COROUTINES, FIREBASE, BLOCKCHAIN, UX, DESIGN, CLEAN_ARCHITECTURE, REST]
         },
         {
@@ -60,13 +61,13 @@ export const createProjects = () => {
             status: 'Released',
             role: 'Creator',
             url: 'https://github.com/AmkSk/homeberry',
-            urlText: 'GitHub',
+            urlText: 'View on GitHub',
             techStack: [KOTLIN, DESIGN, REST]
         },
         {
             name: 'HAVE Bank',
             color: '#2B1E31',
-            description: 'A neo-banking FinTech app for a German startup. Joining the team, I have enforced and implemented Single Activity Pattern, Jetpack Navigation, testing, and led the transition from XML Views to Compose. The business logic was implemented in Kotlin Multiplatform. I was also conducting comprehensive research on optimal mobile UX, proposing key UI updates to improve user-friendliness across various screens. I led facilitating effective communication with the design team and product owners to align on project goals and execution and helped streamlining development processes through initiating monthly retrospective and feedback sessions and kick-off meetings.',
+            description: 'A neo-banking FinTech app for a German startup. Joining the team, I have enforced and implemented Single Activity Pattern, Jetpack Navigation, testing, and led the transition from XML Views to Compose. The business logic was implemented in Kotlin Multiplatform. I was also conducting comprehensive research on optimal mobile UX, proposing key UI updates to improve user-friendliness across various screens. I helped facilitating effective communication with the design team and product owners to align on project goals and execution, and helped streamlining development processes through initiating monthly retrospective and feedback sessions and kick-off meetings.',
             imageUrl: require("../asset/have.png"),
             logoUrl: require("../asset/have-icon.png"),
             status: 'Discontinued',
@@ -82,7 +83,7 @@ export const createProjects = () => {
             status: 'Released',
             role: 'Senior Android Developer',
             url: 'https://play.google.com/store/apps/details?id=cz.csob.smart',
-            urlText: 'Google Play',
+            urlText: 'View on Google Play',
             techStack: [KOTLIN, CLEAN_ARCHITECTURE, COROUTINES, REST]
         },
         {
@@ -94,7 +95,7 @@ export const createProjects = () => {
             status: 'Legacy',
             role: 'Android Developer',
             url: 'https://play.google.com/store/apps/details?id=cz.skodaauto.myskoda',
-            urlText: 'Google Play',
+            urlText: 'View on Google Play',
             techStack: [KOTLIN, JAVA, CLEAN_ARCHITECTURE, COROUTINES, REST, TDD, JENKINS]
         },
     ];
