@@ -1,7 +1,7 @@
 import './App.css';
 import {ProjectView} from "./component/ProjectView";
 import {useMemo} from "react";
-import {createProjects} from "./data/Data";
+import {createPersonalProjects, createProjects} from "./data/Data";
 import {ReactComponent as Github} from "./asset/github.svg";
 import {ReactComponent as LinkedIn} from "./asset/linkedin.svg";
 import {ReactComponent as Instagram} from "./asset/instagram.svg";
@@ -12,6 +12,13 @@ function App() {
             return <ProjectView project={project}/>
         })
     }, []);
+
+    const personalProjects = useMemo(() => {
+        return createPersonalProjects().map(project => {
+            return <ProjectView project={project}/>
+        })
+    }, []);
+
 
     return (
         <div className="App">
@@ -46,9 +53,13 @@ function App() {
                     </div>
                 </div>
             </div>
-            <h1 id="projects" className="projects-title">Have a look at some of my projects</h1>
+            <h1 id="projects" className="projects-title">Collaborative projects</h1>
             {projects}
+            <h1 className="projects-title">My personal projects</h1>
+            {personalProjects}
             <div id="reach-out" className={"footer"}>
+                <h1>Reach out</h1>
+
                 <div className="footer-icon-wrapper">
                     <a href="https://www.linkedin.com/in/andrej-martin%C3%A1k-a5118731/"
                     ><LinkedIn className="footer-icon"/></a>
@@ -56,7 +67,7 @@ function App() {
                     <a href="https://www.instagram.com/andrej.martinak/"><Instagram className="footer-icon"/></a>
                 </div>
 
-                <p>Created by me in 2024 in React</p>
+                <p>Created by Andrej Martinák in 2024 in React</p>
             </div>
 
         </div>

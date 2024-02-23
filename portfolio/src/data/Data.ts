@@ -28,18 +28,8 @@ const GRAPH_QL = 'GraphQL'
 const TDD = 'Test Driven Development'
 const JENKINS = 'Jenkins'
 
-export const createProjects = () => {
-    const projects: Project[] = [
-        {
-            name: 'WIP',
-            color: '#42B047',
-            description: 'A beautiful-looking gamified habit tracker. Based on scientific research, it is designed to make learning new habits easier and overcoming bad ones more intuitive. Currently under development, I am working on an MVP.',
-            imageUrl: require("../asset/game-of-life.png"),
-            logoUrl: require("../asset/game-of-life-icon.png"),
-            status: 'Work in Progress',
-            role: 'Creator',
-            techStack: [REACT_NATIVE, EXPO, DESIGN, UX]
-        },
+export const createPersonalProjects = () => {
+    return [
         {
             name: 'MoonPos',
             color: '#FF9F00',
@@ -64,6 +54,21 @@ export const createProjects = () => {
             urlText: 'View on GitHub',
             techStack: [KOTLIN, DESIGN, REST]
         },
+        {
+            name: 'WIP',
+            color: '#42B047',
+            description: 'A beautiful-looking gamified habit tracker. Based on scientific research, it is designed to make learning new habits easier and overcoming bad ones more intuitive. Currently under development, I am working on an MVP.',
+            imageUrl: require("../asset/game-of-life.png"),
+            logoUrl: require("../asset/game-of-life-icon.png"),
+            status: 'Work in Progress',
+            role: 'Creator',
+            techStack: [REACT_NATIVE, EXPO, DESIGN, UX]
+        },
+    ]
+}
+
+export const createProjects = () => {
+    const projects: Project[] = [
         {
             name: 'HAVE Bank',
             color: '#2B1E31',
