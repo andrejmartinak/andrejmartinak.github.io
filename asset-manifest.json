@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.b3c21089.css",
-    "main.js": "/static/js/main.f8b5a534.js",
+    "main.js": "/static/js/main.06b47341.js",
     "static/media/skoda.png": "/static/media/skoda.e8d2d648d772211b01f1.png",
+    "static/media/notino.png": "/static/media/notino.6a72d1c9cb17a862fe8a.png",
     "static/media/homeberry.png": "/static/media/homeberry.b28806bd502f1f8e2974.png",
     "static/media/game-of-life.png": "/static/media/game-of-life.06b264aaac4cf3837345.png",
     "static/media/have.png": "/static/media/have.1276421c3f976604060b.png",
@@ -18,10 +19,10 @@
     "static/media/linkedin.svg": "/static/media/linkedin.335d843ee8a45421d5a6ee8ac6deb5e6.svg",
     "index.html": "/index.html",
     "main.b3c21089.css.map": "/static/css/main.b3c21089.css.map",
-    "main.f8b5a534.js.map": "/static/js/main.f8b5a534.js.map"
+    "main.06b47341.js.map": "/static/js/main.06b47341.js.map"
   },
   "entrypoints": [
     "static/css/main.b3c21089.css",
-    "static/js/main.f8b5a534.js"
+    "static/js/main.06b47341.js"
   ]
 }
