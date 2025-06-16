@@ -77,6 +77,7 @@ export const createProjects = () => {
             color: '#DC0069',
             description: 'Architected and led the multiplatform transformation of Notino, one of Europe\'s largest e-commerce platforms. Designed the complete KMP integration strategy, roadmap, and architecture for both Android and iOS teams. Modernized the iOS infrastructure by migrating from CocoaPods to SPM, rebuilt CI/CD pipelines for multiplatform deployment, and mentored teams on KMP adoption while continuing to deliver business-critical features.',
             imageUrl: require("../asset/notino.png"),
+            logoUrl: require("../asset/notino-icon.png"),
             status: 'In Progress',
             role: 'Senior Mobile Developer, Technical Lead',
             techStack: [KOTLIN, ANDROID, SWIFT, IOS, KOTLIN_MULTIPLATFORM, CLEAN_ARCHITECTURE]
