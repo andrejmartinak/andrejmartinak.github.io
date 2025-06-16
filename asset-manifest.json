@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.b3c21089.css",
-    "main.js": "/static/js/main.ec9ca4e3.js",
+    "main.js": "/static/js/main.c92c0bc5.js",
     "static/media/skoda.png": "/static/media/skoda.e8d2d648d772211b01f1.png",
     "static/media/notino.png": "/static/media/notino.6a72d1c9cb17a862fe8a.png",
     "static/media/homeberry.png": "/static/media/homeberry.b28806bd502f1f8e2974.png",
@@ -11,8 +11,8 @@
     "static/media/moonpos.png": "/static/media/moonpos.c22ab9a47812809468c7.png",
     "static/media/moonpos-icon.png": "/static/media/moonpos-icon.1778b6c3c87e5725854b.png",
     "static/media/csob.png": "/static/media/csob.5192f867431b5b64fa80.png",
+    "static/media/notino-icon.png": "/static/media/notino-icon.0bee2b52f04677910b56.png",
     "static/media/game-of-life-icon.png": "/static/media/game-of-life-icon.b34afad390b8a7efbb1f.png",
-    "static/media/notino-icon.png": "/static/media/notino-icon.6c9f572ea7418317490d.png",
     "static/media/csob-icon.png": "/static/media/csob-icon.f8ceb68d4d921216554f.png",
     "static/media/skoda-icon.png": "/static/media/skoda-icon.e150dfd43d9a4e45e740.png",
     "static/media/github.svg": "/static/media/github.ca8f6c34af0f10c13e3341d4faa50878.svg",
@@ -20,10 +20,10 @@
     "static/media/linkedin.svg": "/static/media/linkedin.335d843ee8a45421d5a6ee8ac6deb5e6.svg",
     "index.html": "/index.html",
     "main.b3c21089.css.map": "/static/css/main.b3c21089.css.map",
-    "main.ec9ca4e3.js.map": "/static/js/main.ec9ca4e3.js.map"
+    "main.c92c0bc5.js.map": "/static/js/main.c92c0bc5.js.map"
   },
   "entrypoints": [
     "static/css/main.b3c21089.css",
-    "static/js/main.ec9ca4e3.js"
+    "static/js/main.c92c0bc5.js"
   ]
 }
