@@ -4,7 +4,6 @@ on:
   push:
     branches:
       - main
-      - feature/hugo-notes
   workflow_dispatch:
 
 permissions:
