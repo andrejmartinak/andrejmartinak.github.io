@@ -1,0 +1,23 @@
+:root {
+    --accent-color: #099539;
+    --accent-color-secondary: #077a2e;
+}
+
+.post-entry:hover .entry-cover img,
+.post-entry:focus .entry-cover img {
+    border-color: var(--accent-color);
+}
+
+a:hover,
+a:focus {
+    color: var(--accent-color);
+}
+
+.post-tags a:hover {
+    color: var(--accent-color);
+    border-color: var(--accent-color);
+}
+
+.logo a:hover {
+    color: var(--accent-color);
+}

@@ -1,0 +1,80 @@
+baseURL: "https://andrejmartinak.github.io/notes/"
+languageCode: "en-us"
+title: "Andy's Notes"
+theme: PaperMod
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production
+  title: "Andy's Notes"
+  description: "Thoughts, notes, and learnings"
+  author: "Andrej Martinák"
+
+  defaultTheme: auto
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: false
+  ShowRssButtonInSectionTermList: false
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  assets:
+    disableHLJS: true
+    customCSS: ["css/extended/custom.css"]
+
+  homeInfoParams:
+    Title: "Andy's Notes"
+    Content: "Thoughts, notes, and learnings by Andrej Martinák."
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/AmkSk/"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/andrej-martin%C3%A1k-a5118731/"
+
+menu:
+  main:
+    - identifier: portfolio
+      name: Portfolio
+      url: /
+      weight: 10
+    - identifier: archive
+      name: Archive
+      url: /archive/
+      weight: 20
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 30
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false

@@ -27,7 +27,7 @@ function App() {
                     <ul>
                         <li><a href="#projects">My Projects</a></li>
                         <li><a href="#reach-out">Reach out</a></li>
-                        <li><a href="">Blog</a></li>
+                        <li><a href="/notes/">Notes</a></li>
                     </ul>
                 </nav>
             </header>
